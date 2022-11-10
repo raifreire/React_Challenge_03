@@ -1,0 +1,26 @@
+.section {
+
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 10%;
+}
+
+.section input {
+    display: flex;
+
+    width: 638px;
+    height: 54px;
+
+    border: 1px solid var(--gray700);
+    border-radius: 8px;
+
+    /*flex: none;
+    order: 0;
+    flex-grow: 0.5;*/
+
+    padding: 16px;
+    gap: 8px;
+}
