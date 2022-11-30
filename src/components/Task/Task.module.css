@@ -1,0 +1,49 @@
+.taskContent {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px;
+    gap: 12px;
+
+    width: 736px;
+    height: 72px;
+
+    /* Gray 500 */
+
+    background: var(--gray500);
+    /* Gray 400 */
+
+    border: 1px solid #333333;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.taskContent button {
+    background: none;
+
+    border: none;
+    border-radius: 3px;
+}
+
+.buttonCheck {
+    outline: none;
+    border: none;
+}
+
+p.textComplited {
+    color: var(--gray300);
+    text-decoration: line-through;
+}
